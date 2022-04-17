@@ -2,7 +2,7 @@ import cv2
 from ball_detector import BallDetector
 from kalmanfilter import KalmanFilter
 
-cap = cv2.VideoCapture(r"C:\Users\nkhoa\project\CS370Project\MOT\Multi-Object-Tracking-with-Kalman-Filter\ball.mp4");
+cap = cv2.VideoCapture("ball.mp4");
 # Load detector
 od = BallDetector()
 
